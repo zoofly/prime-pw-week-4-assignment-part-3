@@ -1,11 +1,11 @@
 console.log('***** Cart Functions *****');
 // Make sure to test all functions here in the JS file!
 // We want to see how you are testing your code!!!
-let basket=[" "];
+let basket=[ ];
 const maxItems=5;
 
-function addItem(value){
-
+function addItem(item){
+basket.push(item)
   return true;
 }
 
@@ -24,12 +24,16 @@ function empty(){
 
 //end empty
 
-function full(){
+function isfull(){
   return true;
   return false;
 
 }
 
+//end ifFull
+
 function removeItem(){
-  
+
 }
+
+//end removeItem
