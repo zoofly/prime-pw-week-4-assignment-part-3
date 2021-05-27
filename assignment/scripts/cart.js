@@ -25,9 +25,9 @@ console.log('In your basket:');
 //end listItems
 
 function empty(){
-  console.log('Basket is empty.')
-basket.length=0;
-return basket;
+console.log('Basket is empty.')
+  basket.length=0;
+  return basket;
 }
 
 //end empty
